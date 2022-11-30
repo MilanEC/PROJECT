@@ -3,7 +3,7 @@ using namespace std;
 class add
 {
 public://access specifier
-int a,b,c;
+int a,b,D;
 void read()
 {cout<<"enter two number"<<endl;
 cin>>a>>b;
@@ -11,11 +11,11 @@ cin>>a>>b;
 void display()
 {cout<<"A="<<a<<endl;
 cout<<"B="<<b<<endl;
-cout<<"sum="<<c<<endl;
+cout<<"sum="<<D<<endl;
 }
 void sum()
 {
-c=a+b;
+D=a+b;
 }
 };
 int main()
